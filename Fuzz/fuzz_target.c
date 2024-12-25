@@ -6,8 +6,10 @@
 #include "test_simulation.cpp"
 #include "test_treatments.cpp"
 
-extern "C" int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
-    if (size < sizeof(int)) return 0;
+extern "C" int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size)
+{
+    if (size < sizeof(int))
+        return 0;
 
     int input = *(int *)data;
 
