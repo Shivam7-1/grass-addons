@@ -2,7 +2,7 @@
 #include <stddef.h>
 #include "pavl.h"
 #include "sort.h"
-#include "local_proto.h" 
+#include "local_proto.h"
 #include "test_simulation.cpp"
 #include "test_treatments.cpp"
 
